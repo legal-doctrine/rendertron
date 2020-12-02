@@ -13,7 +13,7 @@ This is a fork from the official repository. I added a Dockerfile so you can bui
 ```
 docker build -t rendertron .
 ```
-* Starting the app as a container on a local system. Expose port 3000 externally, mapped to port 3000 inside the container:
+* Run a container from the created image. Expose port 3000 externally, mapped to port 3000 inside the container:
 ```
 docker container run -p 3000:3000 rendertron
 ```
